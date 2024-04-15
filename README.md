@@ -11,14 +11,13 @@ This repository contains scripts and documentation for managing and securing fil
 
 - <b>Assessment of Current Permissions:</b> Utilizing commands like ls -l and ls -ld to list files and directories along with detailed permissions, ownership, and other attributes, which is essential for evaluating current security settings.
 - <b>Understanding Permissions Strings:</b> Detailed explanation and examples of permissions strings which define access levels for different user types:
-
-File Type Indicator: (e.g., d for directory, - for file)
-Owner Permissions: (e.g., rwx)
-Group Permissions: (e.g., rwx)
-Others Permissions: (e.g., rwx)
+<p>File Type Indicator: (e.g., d for directory, - for file)</p>
+<p>Owner Permissions: (e.g., rwx)</p>
+<p>Group Permissions: (e.g., rwx)</p>
+<p>Others Permissions: (e.g., rwx)</p>
 - <b>Modifying File Permissions:</b> Practical usage of the chmod command to change permissions, illustrated through real-world examples:
-Restricting and granting access using both numeric and symbolic methods.
-Special focus on handling hidden files and directories.
+<p>Restricting and granting access using both numeric and symbolic methods.</p>
+<p>Special focus on handling hidden files and directories.</p>
 - <b>Real-World Scenarios:</b>  Step-by-step walkthroughs on how permissions are modified to meet specific operational requirements or security policies within an organization.
 - 
 <h2>Learning Outcomes: </h2>
