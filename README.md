@@ -9,10 +9,18 @@ This repository contains scripts and documentation for managing and securing fil
 
 <h2>Project Overview</h2>
 
-- <b>Incident Summary:</b> Detailed account of the DDoS attack, including the tactics employed by the attackers and the initial vulnerabilities they exploited.  
-- <b>Response Strategy:</b> Insights into the immediate actions taken by the incident management team to block incoming ICMP packets and the subsequent steps to restore critical network services.
-- <b>Security Improvements:</b> Post-incident enhancements to our cybersecurity posture, including the implementation of new firewall rules, source IP address verification, deployment of network monitoring software, and integration of an IDS/IPS system.
+- <b>Assessment of Current Permissions:</b> Utilizing commands like ls -l and ls -ld to list files and directories along with detailed permissions, ownership, and other attributes, which is essential for evaluating current security settings.
+- <b>Understanding Permissions Strings:</b> Detailed explanation and examples of permissions strings which define access levels for different user types:
 
+File Type Indicator: (e.g., d for directory, - for file)
+Owner Permissions: (e.g., rwx)
+Group Permissions: (e.g., rwx)
+Others Permissions: (e.g., rwx)
+- <b>Modifying File Permissions:</b> Practical usage of the chmod command to change permissions, illustrated through real-world examples:
+Restricting and granting access using both numeric and symbolic methods.
+Special focus on handling hidden files and directories.
+- <b>Real-World Scenarios:</b>  Step-by-step walkthroughs on how permissions are modified to meet specific operational requirements or security policies within an organization.
+- 
 <h2>Learning Outcomes: </h2>
 
 - <b>Framework Application:</b> Application of the NIST cybersecurity framework in a real-life context, with detailed notes on how each phase—Identify, Protect, Detect, Respond, and Recover—was addressed during the incident.  
