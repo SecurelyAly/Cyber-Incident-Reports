@@ -29,32 +29,29 @@ This repository contains scripts and documentation for managing and securing fil
 
 
 
-
 ## Usage
 
 The organization experienced a DDoS attack that disrupted internal network services for two hours. The attack involved a flood of ICMP packets overwhelming the network. The incident management team responded by blocking incoming ICMP packets and restoring critical network services. Investigation revealed that an unconfigured firewall allowed the attack, prompting the implementation of new firewall rules, source IP address verification, network monitoring software, and an IDS/IPS system. This event underscores the need for enhanced network security measures to prevent future attacks and ensure the integrity of the company's network infrastructure.
 
-Checking File and Directory Details:
+<b>Checking File and Directory Details: </b>
 bash
 ls -l
 ls -la
 
-Changing File Permissions:
+<b> Changing File Permissions: </b>
 bash
 chmod o-w project_k.txt
 ls -la # Confirming the changes
 
-Securing Hidden Files:
+<b> Securing Hidden Files: </b>
 bash
 chmod u-w .project_x.txt
 chmod g-w .project_x.txt
 chmod g+r .project_x.txt
 
-Modifying Directory Access:
+<b> Modifying Directory Access: </b>
 bash
 chmod go-x drafts
-
-
 
 
 ## Summary
@@ -62,14 +59,3 @@ chmod go-x drafts
 This project enhances the understanding and application of Linux file permissions to ensure that files and directories are secured as per the organizational requirements. By employing a combination of command-line tools and scripts, users can effectively manage and safeguard their Linux environments against unauthorized access.
 
 
-
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
