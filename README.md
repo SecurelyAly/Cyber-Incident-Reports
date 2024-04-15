@@ -17,15 +17,15 @@ This repository contains scripts and documentation for managing and securing fil
  <p> <blockquote> &#8728; Others Permissions: (e.g., rwx) </blockquote> </p>
 
 - <b>Modifying File Permissions:</b> Practical usage of the chmod command to change permissions, illustrated through real-world examples:
-<p> &#8728; Restricting and granting access using both numeric and symbolic methods.</p>
-<p> &#8728; Special focus on handling hidden files and directories.</p>
+<p> <blockquote> &#8728; Restricting and granting access using both numeric and symbolic methods.</blockquote> </p>
+<p> <blockquote> &#8728; Special focus on handling hidden files and directories. </blockquote> </p>
 - <b>Real-World Scenarios:</b>  Step-by-step walkthroughs on how permissions are modified to meet specific operational requirements or security policies within an organization.
-- 
-<h2>Learning Outcomes: </h2>
 
-- <b>Framework Application:</b> Application of the NIST cybersecurity framework in a real-life context, with detailed notes on how each phase—Identify, Protect, Detect, Respond, and Recover—was addressed during the incident.  
-- <b>Technical Documentation:</b> In-depth analysis and technical documentation of the attack, response actions, and recovery processes, providing a blueprint for handling similar security incidents in the future.
-- <b>Security Improvements:</b> Post-incident enhancements to our cybersecurity posture, including the implementation of new firewall rules, source IP address verification, deployment of network monitoring software, and integration of an IDS/IPS system.
+<h2>Contents: </h2>
+
+- <b> Scripts:</b> Scripts used to modify and manage file and directory permissions.
+- <b> Documentation:</b> Detailed explanations of each script and command used.
+- <b>Case Studies:</b> Practical applications and scenario-based examples demonstrating how to secure a Linux file system effectively.
 
 
 # Incident Report Analysis
