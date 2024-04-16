@@ -11,7 +11,7 @@ This repository contains scripts and documentation for managing and securing fil
 
 - <b>Assessment of Current Permissions:</b> Utilizing commands like ls -l and ls -ld to list files and directories along with detailed permissions, ownership, and other attributes, which is essential for evaluating current security settings.
 - <b>Understanding Permissions Strings:</b> Detailed explanation and examples of permissions strings which define access levels for different user types:
- <p> <blockquote> &#8728;File Type Indicator: (e.g., d for directory, - for file) </blockquote> </p>
+ <p> <blockquote> &#8728; File Type Indicator: (e.g., d for directory, - for file) </blockquote> </p>
  <p> <blockquote> &#8728; Owner Permissions: (e.g., rwx) </blockquote> </p>
  <p> <blockquote> &#8728; Group Permissions: (e.g., rwx) </blockquote> </p>
  <p> <blockquote> &#8728; Others Permissions: (e.g., rwx) </blockquote> </p>
